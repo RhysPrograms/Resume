@@ -7,17 +7,13 @@
   justify-content: space-between;
   align-items: center;
   background-color: #333;
-  height: 6.2rem;
+  height: 6.4rem;
   padding: 0 4.8rem;
 }
 
 .logo {
   height: 3.2rem;
 }
-
-/* ***************      */
-/* NAVIGATION SECTION  */
-/* ***************    */
 
 .nav {
 
@@ -43,4 +39,64 @@
 .nav-link:hover,
 .nav-link:active {
   color: #cd853f;
+}
+
+/* ***************   */
+/* FOOTER           */
+/* *************** */
+
+.footer {
+  background-color: #333;
+  padding: 2.4rem;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.footer-elements {
+  display: grid;
+  row-gap: 10%;
+  justify-content: center;
+}
+
+.author {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  gap: 3.2rem;
+}
+
+.social-icon {
+  color: #fff;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.social-icon:link,
+.social-icon:visited {
+  color: #fff;
+  transition: all 0.3s;
+}
+
+.social-icon:hover,
+.social-icon:active {
+  color: #cd853f;
+  transition: all 0.3s;
+}
+
+.btn {
+  background-color: #cd853f;
+  border: none;
+  border-radius: 75%;
+}
+
+.copyright {
+  display: flex;
+  justify-content: center;
 }
